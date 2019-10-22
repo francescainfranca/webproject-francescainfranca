@@ -1,0 +1,155 @@
+header, nav, main, footer { display: block; }
+body { background-color: #f5f5dc; 
+      color: #000;
+      font-family: Verdana, Arial, sans-serif;
+}
+
+
+nav { text-align: center; 
+     font-weight: lighter; 
+	 font-size: 1em;
+	 padding-top: 10px;
+     padding-bottom: 10px;
+	 width: 1080px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+
+h1 {
+    padding: 20 20 20 20; 
+}
+ul {
+    list-style: none;
+    border: none
+}
+footer {
+    font-size: 13px;
+     
+}
+#logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#locheilt {
+    height: 318.5px;
+    width: 512px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#australiaHouse {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+#hpTrain {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+#kingsCross {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+#claremont {
+       padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+#leadenhall {
+        padding-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+        height="427"; 
+        width="640";
+}
+#ashridge {
+       padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+#buybooks {
+        padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.red {
+    color: #860909;
+}
+.blue {
+    color: #00006d;
+}
+.yellow {
+    color: #A18C0C;
+}
+.green {
+    color: #00613e;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    h1, h2, h3 {font-size: 100%;}
+    p, .news {font-size: 75%;}
+    nav, nav ul, nav li {padding: 0px;}
+    nav li {display: block;}
+    nav a {display: block;
+        padding: .5em 0;
+        border-bottom: 2px ridge #00005d;}
+    img{display: ;}
+    .column {float: none; width: 100%;}
+    #locheilt {height: 80%; width: 80%}
+    #australiaHouse {height: 80%; width: 80%}
+    #hpTrain {height: 80%; width: 80%}
+    #kingsCross {height: 80%; width: 80%}
+    #claremont {height: 80%; width: 80%}
+    #leadenhall { height: 80%; width: 80%}
+    #ashridge {height: 80%; width: 80%}
+    #hpWorld {height: 80%; width: 80%; padding-top: 50px;
+    display: block; margin-left: auto;margin-right: auto; padding-bottom: 50px;}
+    #warnerbros {height: 80%; width: 80%; padding-top: 50px; display: block; margin-left: auto; margin-right: auto; padding-bottom: 50px;}
+    #buybooks { height: 80%; width: 80%}
+    #logo {width: 80%;height:80%;}
+}
+
+@media only screen and (max-width: 850px) {
+    #hpWorld {height: 90%; width: 90%; padding-top: 50px;}
+    #warnerbros {height: 90%; width: 90%;}
+}
